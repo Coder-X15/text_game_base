@@ -6,5 +6,5 @@ I know it sounds absurd but I'm still gonna do it because I like making stuff an
 1. Hassle-free development
 2. Easy modelling of levels/scenes
 3. Ability for users to add text-art into the games they develop
-4. Utilizes CMake for making the game executable  __(wolf whistles)__
+4. Utilizes CMake for making the game executable  <i>(wolf whistles)</i>
 5. You can add something here when you find it.
