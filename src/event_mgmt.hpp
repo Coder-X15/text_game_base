@@ -21,6 +21,6 @@ namespace event_utils{
     };
 }
 
-extern event_utils::EventHandler event_manager;
+event_utils::EventHandler event_manager;
 
 # endif
