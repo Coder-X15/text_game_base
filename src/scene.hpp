@@ -16,10 +16,23 @@ namespace scene_util{
     class Scene{
         // abstract class to inherit the scene architecture from
         public:
-            virtual void load() = 0; // returns the integer index of the next scene in the scene array
-            virtual void run() = 0; // runs the scene
-            virtual bool achieved_objective() = 0; // checks if the objective in the scene was achieved
-            virtual bool is_locked() = 0; // checks if the scene is locked
+            virtual ~Scene() {} //virtual destructor
+            virtual void load(){
+                // returns the integer index of the next scene in the scene array
+                std::cout << "base\n";
+            } 
+            virtual void run(){
+                // runs the song
+                std::cout << "base\n";
+            }
+            virtual bool achieved_objective(){
+                // checks if the objective in the scene was achieved
+                return true;
+            } 
+            virtual bool is_locked(){
+                // checks if the scene is locked
+                return false;
+            }  
     };
 }
 
